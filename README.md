@@ -24,6 +24,9 @@ So, in particular, for all piecewise polynomial trajectory of the center of mass
 
 As I said before, the rest of the paper is about a lower-limb rehabilitation exoskeleton.
 
+<p align="center">
+<img src="graphics/trajtrack.png">
+</p>
 
 Abstract
 
