@@ -6,18 +6,18 @@ The most important part of the research is in pages 3-4, specifically subsection
 So we have the classic zmp equation under the consideration of constant angular momentum and constant height of center of mass:
 
 <p align="center">
-<img src="eqzmp.png">
+<img src="graphics/eqzmp.png">
 </p>
 
 Instead of tracking y as xzmp as the paper we based on (final of Readme), we simply solve the equation. Actually it is possible to get a closed form solution form it, always that the zmp trajectory times an exponential will be integrable. In fact we have: 
 
 
 <p align="center">
-<img src="eqsolved.png">
+<img src="graphics/eqsolved.png">
 </p>
 
 <p align="center">
-<img src="fsolv.png">
+<img src="graphics/fsolv.png">
 </p>
 
 So, in particular, for all piecewise polynomial trajectory of the center of mass, we have a function of the center of mass that makes the zmp perfectly. This fact is well-known in literature, in fact, there are infinite solutions from it, but almost all of them are unstable because of the positive pole of the differential equation. The little problem is find the solution that donesn't have that unstable exponential term, which is basically find the unique constant c<sub>1</sub> that gives us the stable trajectory of center of mass.
